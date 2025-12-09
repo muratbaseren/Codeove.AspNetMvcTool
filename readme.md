@@ -1,6 +1,15 @@
 # Codeove ASPNET Core MVC Tools
 ASP.NET Core MVC projelerinde kullanýlmak üzere çeþitli yardýmcý metotlar ve geniþletmeler içeren bir kütüphane.
 
+## Kurulum
+Nuget paketi olarak ekleyebilirsiniz: [Codeove.AspNetMvcTools](https://www.nuget.org/packages/Codeove.AspNetMvcTools)
+
+```cmd
+Install-Package Codeove.AspNetMvcTools
+```
+
+## Ýçerik
+
 - EnumTool
 - TempData Extensions
 
