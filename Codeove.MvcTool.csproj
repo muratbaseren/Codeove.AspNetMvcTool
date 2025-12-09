@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Codeove AspNet MVC Tools</Title>
+		<PackageId>Codeove.AspNetMvcTools</PackageId>
+		<Authors>muratbaseren,codeove</Authors>
+		<Product>Codeove.AspNetMvcTools</Product>
+		<Description>ASP.NET Core MVC projelerinde kullanılmak üzere çeşitli yardımcı metotlar ve genişletmeler içeren bir kütüphane.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+</Project>
