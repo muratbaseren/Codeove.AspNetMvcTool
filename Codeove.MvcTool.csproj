@@ -7,13 +7,32 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Codeove AspNet MVC Tools</Title>
 		<PackageId>Codeove.AspNetMvcTools</PackageId>
+		<Version>1.0.0</Version>
 		<Authors>muratbaseren,codeove</Authors>
 		<Product>Codeove.AspNetMvcTools</Product>
 		<Description>ASP.NET Core MVC projelerinde kullanılmak üzere çeşitli yardımcı metotlar ve genişletmeler içeren bir kütüphane.</Description>
+		<PackageProjectUrl>https://github.com/muratbaseren/Codeove.AspNetMvcTool</PackageProjectUrl>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/muratbaseren/Codeove.AspNetMvcTool</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>aspnet core;mvc;tools;extensions;helpers</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
